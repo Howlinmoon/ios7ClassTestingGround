@@ -18,6 +18,26 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString *myString = @"The NewFoundland dog breed has webbed feet which aids in its swimming prowess";
+    
+    NSArray *wordsInSentence = [myString componentsSeparatedByString:@" "];
+    NSLog(@"%@", wordsInSentence);
+    
+    NSMutableArray *capitalizedWords = [[NSMutableArray alloc] init];
+// old style for loop
+//    for (int word = 0; word < [wordsInSentence count]; word ++) {
+//        NSString *uncapitalizedWord = [wordsInSentence objectAtIndex:word];
+//        NSString *capitalizedWord = [uncapitalizedWord capitalizedString];
+//        [capitalizedWords addObject: capitalizedWord];
+//    }
+    
+    
+    // new style for loop "Fast Enumeration" AKA "For Each" or "For In"
+    for (NSString *word in wordsInSentence ) {
+        NSString *capitalizedWord = [word capitalizedString];
+        [capitalizedWords addObject:capitalizedWord];
+    }
+    NSLog(@"%@", capitalizedWords);
 }
 
 - (void)didReceiveMemoryWarning
