@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MBFDog.h"
 
 @interface ViewController ()
 
@@ -33,11 +34,23 @@
     
     
     // new style for loop "Fast Enumeration" AKA "For Each" or "For In"
-    for (NSString *word in wordsInSentence ) {
-        NSString *capitalizedWord = [word capitalizedString];
-        [capitalizedWords addObject:capitalizedWord];
-    }
-    NSLog(@"%@", capitalizedWords);
+//    for (NSString *word in wordsInSentence ) {
+//        NSString *capitalizedWord = [word capitalizedString];
+//        [capitalizedWords addObject:capitalizedWord];
+//    }
+//    NSLog(@"%@", capitalizedWords);
+    
+    
+    MBFDog *dog = [[MBFDog alloc] init];
+    [dog setName:@"Sparky"];
+    NSString *myDogsName = [dog name];
+    NSLog(@"My dogsName method 1: %@", myDogsName);
+    
+    dog.name = @"Sparky is awesome";
+    NSLog(@"My dogsName method 1: %@", dog.name);
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

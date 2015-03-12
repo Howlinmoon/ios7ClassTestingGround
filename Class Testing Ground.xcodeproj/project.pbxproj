@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		969EA60D1AB1F3590040A040 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 969EA60C1AB1F3590040A040 /* MBFDog.m */; };
 		969F21F71AB0A90800B6C805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969F21F61AB0A90800B6C805 /* Foundation.framework */; };
 		969F21F91AB0A90800B6C805 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969F21F81AB0A90800B6C805 /* CoreGraphics.framework */; };
 		969F21FB1AB0A90800B6C805 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969F21FA1AB0A90800B6C805 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		969EA60B1AB1F3590040A040 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
+		969EA60C1AB1F3590040A040 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
 		969F21F31AB0A90800B6C805 /* Class Testing Ground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Class Testing Ground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		969F21F61AB0A90800B6C805 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		969F21F81AB0A90800B6C805 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				969F22081AB0A90800B6C805 /* Main.storyboard */,
 				969F220B1AB0A90800B6C805 /* ViewController.h */,
 				969F220C1AB0A90800B6C805 /* ViewController.m */,
+				969EA60B1AB1F3590040A040 /* MBFDog.h */,
+				969EA60C1AB1F3590040A040 /* MBFDog.m */,
 				969F220E1AB0A90800B6C805 /* Images.xcassets */,
 				969F21FD1AB0A90800B6C805 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				969F220D1AB0A90800B6C805 /* ViewController.m in Sources */,
 				969F22071AB0A90800B6C805 /* AppDelegate.m in Sources */,
+				969EA60D1AB1F3590040A040 /* MBFDog.m in Sources */,
 				969F22031AB0A90800B6C805 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +462,7 @@
 				969F22271AB0A90800B6C805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		969F22281AB0A90800B6C805 /* Build configuration list for PBXNativeTarget "Class Testing GroundTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				969F222A1AB0A90800B6C805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

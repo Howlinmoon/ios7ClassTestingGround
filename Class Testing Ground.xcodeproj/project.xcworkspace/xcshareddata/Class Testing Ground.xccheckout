@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1740BBBD-73FD-472D-961E-15C9B59DE85A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Class Testing Ground</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2455847E-E885-4060-821D-3BACC954668B</key>
+		<string>https://github.com/Howlinmoon/ios7ClassTestingGround.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Class Testing Ground.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2455847E-E885-4060-821D-3BACC954668B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Howlinmoon/ios7ClassTestingGround.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2455847E-E885-4060-821D-3BACC954668B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2455847E-E885-4060-821D-3BACC954668B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Class Testing Ground</string>
+		</dict>
+	</array>
+</dict>
+</plist>
